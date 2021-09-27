@@ -1,0 +1,21 @@
+body{
+    background-image: url(okk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#login_div
+{
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    width: 500;
+    height: 350;
+}
+h1{
+    font-family: 'sofia';
+}
+h3{
+    font-size: larger;
+}

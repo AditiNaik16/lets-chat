@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Chat Room !!
+        </title> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="chat.css">
+       
+        
+    </head>
+    <body id="Bg">
+        <div class="container">  
+            <button id="logout" onclick="logout()"  class="glyphicon glyphicon-log-out  btn btn-danger">Logout</button> 
+     
+        <center>
+        
+       <h1><u>Lets chat </u></h1>
+    <br>
+    <br> 
+    <h2 class="color_white" id="nameuser"> </h2>
+            <br>
+    <div class="form-group input_div_room_page">
+        <h2>Add Room:</h2>
+        <br>
+        <input class="form-control" id="room_name" placeholder="Type here">
+        <br>
+        </div>
+        <button class="btn btn-success" onclick = "addroom()">Add Room</button>
+    
+        </center>
+        </div>
+        <script src="chat_room.js"></script>
+       
+    </body>
+</html>
